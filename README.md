@@ -11,5 +11,5 @@
 
 - Contiene la web pública https://vacunatepe.netlify.app compuesta por dos landing pages:
     + Información sobre la vacuna: https://vacunatepe.netlify.app
-    + Plataforma para viralizar la campaña: https://vacunatepe.netlify.app/heroes
+    + Plataforma para viralizar la campaña: https://vacunatepe.netlify.app/competicion
 
