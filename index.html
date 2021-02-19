@@ -9,36 +9,49 @@
     <meta name="description" content="Tu salud, nuestro principal objetivo">
     <meta property="og:image" content="">
     <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="customstyle.css">
 
+    <style type="text/css">
+      .button{
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+    </style>
   </head>
 
   <body class="font-friendly">
-    <div class="red-flat">
+    <div class="red-white">
       <!---->
       <header class="header">
         <div class="container-lrg">
           <div class="flex col-12 spread">
-            <a class="logo primary-color  logo">#VacunatePe</a>
-            <a href="mailto:" class="nav-link secondary-color mr0">Contact</a>
+            <img width="150" src="img/logo.png">
+            <div>
+              <a href="/" class="nav-link secondary-color mr10 button bold">Infórmate 📰</a>
+              <a href="competicion" class="nav-link secondary-color mr0 button accent-bg white-color bold">Competición 🏆</a>
+            </div>
           </div>
         </div>
       </header>
       <section class="section">
         <div class="container-lrg flex">
           <div class="flex flex-column col-6 center-vertical mobile-text-center mb40">
-            <h1 class="heading primary-color ">Tu salud, nuestro principal objetivo</h1>
-            <h2 class="subheading secondary-color mt20 ">Infórmate con todo lo que necesitas saber sobre el plan de vacunación en el Perú.</h2>
-            <div class="mt40">
+            <h1 class="heading primary-color ">Tu salud, nuestro principal objetivo 🎯</h1>
+            <h2 class="subheading secondary-color mt20 ">Infórmate con todo lo que necesitas saber sobre la vacunación en el Perú. Deja tu email y te avisaremos las últimas noticias.</h2>
+            <div class="mt20">
               <form action="" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate="novalidate" class="container-sml mailchimp flex mb20">
-                <input type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="Your Email Address" required="required" class="mailchimp-input mobile-text-center">
+                <input type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="Escribe tu email" required="required" class="mailchimp-input mobile-text-center">
                 <div aria-hidden="true" style="position: absolute; left: -5000px;">
                   <input type="text" name="b_3198ee66c8baf4d60aa2fee6b_d60e1830e8" tabindex="-1" value="">
                 </div>
-                <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="white-color button no-max-width accent-bg primary-color" value="Enviar">
+                <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="white-color button no-max-width accent-bg primary-color" value="registrarme ✉️">
               </form>
             </div>
           </div>
@@ -52,7 +65,7 @@
         </div>
       </section>
     </div>
-    <section id="feature-1" class="section red-white"  activepage="Landing">
+    <section id="feature-1" class="section red-black"  activepage="Landing">
       <div class="container-lrg flex">
         <div class="col-4 text-center flex flex-column center-horizontal">
           <i class="icon mobile-center-icon secondary-bg ">
@@ -61,7 +74,7 @@
             </svg>
           </i>
           <h3 class="bold primary-color ">Cuida tu vida</h3>
-          <p class="paragraph secondary-color ">No means no matter what you type we pick the best template tailored to your content. </p>
+          <p class="paragraph secondary-color ">Recuerda usar la mascarilla y el lavado de manos constante con agua y jabón. </p>
         </div>
         <div class="col-4 text-center flex flex-column center-horizontal">
           <i class="icon mobile-center-icon secondary-bg ">
@@ -70,7 +83,7 @@
             </svg>
           </i>
           <h3 class="bold primary-color ">Protege quien amas</h3>
-          <p class="paragraph secondary-color ">No means no matter what you type we pick the best template tailored to your content.</p>
+          <p class="paragraph secondary-color ">El distanciamiento físico y la movización estrictamente necesario, reducen el riesgo de enfermar.</p>
         </div>
         <div class="col-4 text-center flex flex-column center-horizontal">
           <i class="icon mobile-center-icon secondary-bg ">
@@ -79,12 +92,12 @@
             </svg>
           </i>
           <h3 class="bold primary-color ">Mejores perspectivas</h3>
-          <p class="paragraph secondary-color ">No means no matter what you type we pick the best template tailored to your content.</p>
+          <p class="paragraph secondary-color">Más de 14 millones de vacunas llegarán a Perú durante el 2021, de 4 distintos proveedores. </p>
         </div>
       </div>
       <!---->
     </section>
-    <section id="faq-2" class="section red-flat"  activepage="Landing">
+    <section id="faq-2" class="section red-gradient"  activepage="Landing">
       <div class="container text-center">
         <div class="col-12">
           <h3 class="heading primary-color ">
@@ -192,13 +205,13 @@
         <img class="img_map" src="img/find_local.png" alt="">
       </div>
       <div class="text-center">
-        <button type="button" class="button button6 text-center"> Encuentra aquí tu local de votación </button>
+        <!-- <button type="button" class="button button6 text-center"> Encuentra aquí tu local de votación </button> -->
         <input type="button" name="find_local" class="white-color button no-max-width accent-bg primary-color" value="Encuentra aquí tu local de votación">
       </div>
       
     </section>
     <section id="checklist-5" class="section red-white"  activepage="Landing">
-      <div class="text-center mb-8">
+      <div class="text-center subtitle">
         <h1>TOTAL DE POBLACIÓN VACUNADA EN EL PERÚ</h1>
       </div>
       <div class="flex">
@@ -223,8 +236,8 @@
                 <span class="span secondary-color ">Policia del Peru</span>
               </div>
             </div>
-            <label for="ss4-item-1" class="slideshow-nav slideshow-nav-previous accent-bg"></label>
-            <label for="ss4-item-1" class="slideshow-nav slideshow-nav-next accent-bg"></label>
+            <label for="ss4-item-1" class="slideshow-nav slideshow-nav-previous secondary-bg"></label>
+            <label for="ss4-item-1" class="slideshow-nav slideshow-nav-next secondary-bg"></label>
           </div>
           <input type="radio" name="ss4" id="ss4-item-1" checked="checked" class="slideshow-bullet">
           <div class="slideshow-item">
@@ -236,8 +249,8 @@
                 <span class="span secondary-color ">Agente de viajes</span>
               </div>
             </div>
-            <label for="ss4-item-0" class="slideshow-nav slideshow-nav-previous accent-bg"></label>
-            <label for="ss4-item-0" class="slideshow-nav slideshow-nav-next accent-bg"></label>
+            <label for="ss4-item-0" class="slideshow-nav slideshow-nav-previous secondary-bg"></label>
+            <label for="ss4-item-0" class="slideshow-nav slideshow-nav-next secondary-bg"></label>
           </div>
         </div>
       </div>
@@ -246,8 +259,8 @@
       <div class="container col-12">
         <!---->
         <div>
-          <a href="https://twitter.com/vacunatepe" target="_blank" class="socialicons accent-bg twitter"></a>
-          <a href="https://facebook.com/vacunatepe" target="_blank" class="socialicons accent-bg facebook"></a>
+          <a href="https://twitter.com/vacunatepe" target="_blank" class="socialicons secondary-bg secondary-color twitter"></a>
+          <a href="https://facebook.com/vacunatepe" target="_blank" class="socialicons secondary-bg secondary-color facebook"></a>
           <!---->
         </div>
         <!---->
